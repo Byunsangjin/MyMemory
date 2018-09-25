@@ -19,6 +19,10 @@
 		60B8E0C9213ED4FE00CDAD7D /* MemoFormVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B8E0C8213ED4FE00CDAD7D /* MemoFormVC.swift */; };
 		60B8E0CB213ED51100CDAD7D /* MemoReadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B8E0CA213ED51100CDAD7D /* MemoReadVC.swift */; };
 		60B8E0CE213FED4000CDAD7D /* fountainpen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 60B8E0CD213FED4000CDAD7D /* fountainpen@2x.png */; };
+		60DDB8DD215A6CA0004035B6 /* CSLogButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DDB8DC215A6CA0004035B6 /* CSLogButton.swift */; };
+		60DDB8DF215A6D6B004035B6 /* button-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 60DDB8DE215A6D6A004035B6 /* button-bg.png */; };
+		60DDB8E2215A6FF1004035B6 /* memo-background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 60DDB8E0215A6FF1004035B6 /* memo-background@2x.png */; };
+		60DDB8E3215A6FF1004035B6 /* warning-icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 60DDB8E1215A6FF1004035B6 /* warning-icon-60@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +40,10 @@
 		60B8E0C8213ED4FE00CDAD7D /* MemoFormVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoFormVC.swift; sourceTree = "<group>"; };
 		60B8E0CA213ED51100CDAD7D /* MemoReadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoReadVC.swift; sourceTree = "<group>"; };
 		60B8E0CD213FED4000CDAD7D /* fountainpen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fountainpen@2x.png"; path = "../../../../../Downloads/PracticeImage/MyMemory/Chapter01/fountainpen@2x.png"; sourceTree = "<group>"; };
+		60DDB8DC215A6CA0004035B6 /* CSLogButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSLogButton.swift; sourceTree = "<group>"; };
+		60DDB8DE215A6D6A004035B6 /* button-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-bg.png"; sourceTree = "<group>"; };
+		60DDB8E0215A6FF1004035B6 /* memo-background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "memo-background@2x.png"; sourceTree = "<group>"; };
+		60DDB8E1215A6FF1004035B6 /* warning-icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "warning-icon-60@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,7 @@
 				60B8E0C6213ED07000CDAD7D /* MemoData.swift */,
 				60B8E0C8213ED4FE00CDAD7D /* MemoFormVC.swift */,
 				60B8E0CA213ED51100CDAD7D /* MemoReadVC.swift */,
+				60DDB8DC215A6CA0004035B6 /* CSLogButton.swift */,
 			);
 			path = MyMemory;
 			sourceTree = "<group>";
@@ -88,7 +97,10 @@
 		60B8E0CC213FED2900CDAD7D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				60DDB8DE215A6D6A004035B6 /* button-bg.png */,
 				60B8E0CD213FED4000CDAD7D /* fountainpen@2x.png */,
+				60DDB8E0215A6FF1004035B6 /* memo-background@2x.png */,
+				60DDB8E1215A6FF1004035B6 /* warning-icon-60@2x.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -152,9 +164,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				607985C9213EBCF00079F25D /* LaunchScreen.storyboard in Resources */,
+				60DDB8DF215A6D6B004035B6 /* button-bg.png in Resources */,
 				607985C6213EBCF00079F25D /* Assets.xcassets in Resources */,
 				60B8E0CE213FED4000CDAD7D /* fountainpen@2x.png in Resources */,
+				60DDB8E2215A6FF1004035B6 /* memo-background@2x.png in Resources */,
 				607985C1213EBCF00079F25D /* Main.storyboard in Resources */,
+				60DDB8E3215A6FF1004035B6 /* warning-icon-60@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +180,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60DDB8DD215A6CA0004035B6 /* CSLogButton.swift in Sources */,
 				60B8E0C5213ED00800CDAD7D /* MemoCell.swift in Sources */,
 				60B8E0C9213ED4FE00CDAD7D /* MemoFormVC.swift in Sources */,
 				60B8E0C7213ED07000CDAD7D /* MemoData.swift in Sources */,
