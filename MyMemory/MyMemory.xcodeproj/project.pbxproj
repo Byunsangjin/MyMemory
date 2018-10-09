@@ -20,6 +20,7 @@
 		6023FBE02163B7E90001828F /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6023FBDF2163B7E90001828F /* SWRevealViewController.m */; };
 		6023FBE22163B8AF0001828F /* SideBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6023FBE12163B8AF0001828F /* SideBarVC.swift */; };
 		6023FBE42163BDF40001828F /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6023FBE32163BDF40001828F /* ProfileVC.swift */; };
+		60700706216CD4710038DBAF /* UserInfoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60700705216CD4710038DBAF /* UserInfoManager.swift */; };
 		607985BC213EBCF00079F25D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607985BB213EBCF00079F25D /* AppDelegate.swift */; };
 		607985BE213EBCF00079F25D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607985BD213EBCF00079F25D /* ViewController.swift */; };
 		607985C1213EBCF00079F25D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607985BF213EBCF00079F25D /* Main.storyboard */; };
@@ -53,6 +54,7 @@
 		6023FBDF2163B7E90001828F /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = "../../../../../Downloads/SWRevealViewController-master/SWRevealViewController/SWRevealViewController.m"; sourceTree = "<group>"; };
 		6023FBE12163B8AF0001828F /* SideBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarVC.swift; sourceTree = "<group>"; };
 		6023FBE32163BDF40001828F /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		60700705216CD4710038DBAF /* UserInfoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoManager.swift; sourceTree = "<group>"; };
 		607985B8213EBCF00079F25D /* MyMemory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMemory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607985BB213EBCF00079F25D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607985BD213EBCF00079F25D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				6023FBDA2163B4FA0001828F /* MyMemory-Bridging-Header.h */,
 				6023FBE12163B8AF0001828F /* SideBarVC.swift */,
 				6023FBE32163BDF40001828F /* ProfileVC.swift */,
+				60700705216CD4710038DBAF /* UserInfoManager.swift */,
 			);
 			path = MyMemory;
 			sourceTree = "<group>";
@@ -241,6 +244,7 @@
 				60B8E0BE213ECF4800CDAD7D /* MemoListVC.swift in Sources */,
 				6023FBE02163B7E90001828F /* SWRevealViewController.m in Sources */,
 				60B8E0CB213ED51100CDAD7D /* MemoReadVC.swift in Sources */,
+				60700706216CD4710038DBAF /* UserInfoManager.swift in Sources */,
 				607985BC213EBCF00079F25D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
