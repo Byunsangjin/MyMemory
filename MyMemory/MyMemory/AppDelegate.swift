@@ -89,5 +89,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
     }
 
+    
+    
+    func application(_ application: UIApplication, willFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey : Any]? = nil) -> Bool {
+        // Override point for customisztion after application launch.
+        // 페이지 인디케이터 설정을 위한 외형 템플릿 구문
+        let pageControl = UIPageControl.appearance()
+        pageControl.pageIndicatorTintColor = UIColor.lightGray
+        pageControl.currentPageIndicatorTintColor = UIColor.black
+        pageControl.backgroundColor = UIColor.white
+        
+        return true
+    }
+    
 }
-

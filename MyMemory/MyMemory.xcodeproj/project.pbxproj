@@ -21,6 +21,10 @@
 		6023FBE22163B8AF0001828F /* SideBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6023FBE12163B8AF0001828F /* SideBarVC.swift */; };
 		6023FBE42163BDF40001828F /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6023FBE32163BDF40001828F /* ProfileVC.swift */; };
 		60700706216CD4710038DBAF /* UserInfoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60700705216CD4710038DBAF /* UserInfoManager.swift */; };
+		60700708216D88900038DBAF /* Tutorial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60700707216D88900038DBAF /* Tutorial.storyboard */; };
+		6070070A216D8D600038DBAF /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60700709216D8D600038DBAF /* Utils.swift */; };
+		6070070C216D8E1C0038DBAF /* TutorialContentsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6070070B216D8E1C0038DBAF /* TutorialContentsVC.swift */; };
+		6070070F216D8FDE0038DBAF /* TutorialMasterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6070070E216D8FDE0038DBAF /* TutorialMasterVC.swift */; };
 		607985BC213EBCF00079F25D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607985BB213EBCF00079F25D /* AppDelegate.swift */; };
 		607985BE213EBCF00079F25D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607985BD213EBCF00079F25D /* ViewController.swift */; };
 		607985C1213EBCF00079F25D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607985BF213EBCF00079F25D /* Main.storyboard */; };
@@ -55,6 +59,10 @@
 		6023FBE12163B8AF0001828F /* SideBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarVC.swift; sourceTree = "<group>"; };
 		6023FBE32163BDF40001828F /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		60700705216CD4710038DBAF /* UserInfoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoManager.swift; sourceTree = "<group>"; };
+		60700707216D88900038DBAF /* Tutorial.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tutorial.storyboard; sourceTree = "<group>"; };
+		60700709216D8D600038DBAF /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		6070070B216D8E1C0038DBAF /* TutorialContentsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialContentsVC.swift; sourceTree = "<group>"; };
+		6070070E216D8FDE0038DBAF /* TutorialMasterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialMasterVC.swift; sourceTree = "<group>"; };
 		607985B8213EBCF00079F25D /* MyMemory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMemory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607985BB213EBCF00079F25D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607985BD213EBCF00079F25D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -85,6 +93,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6070070D216D8E3D0038DBAF /* Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				6070070B216D8E1C0038DBAF /* TutorialContentsVC.swift */,
+				6070070E216D8FDE0038DBAF /* TutorialMasterVC.swift */,
+			);
+			path = Tutorial;
+			sourceTree = "<group>";
+		};
 		607985AF213EBCF00079F25D = {
 			isa = PBXGroup;
 			children = (
@@ -105,9 +122,11 @@
 		607985BA213EBCF00079F25D /* MyMemory */ = {
 			isa = PBXGroup;
 			children = (
+				6070070D216D8E3D0038DBAF /* Tutorial */,
 				607985BB213EBCF00079F25D /* AppDelegate.swift */,
 				607985BD213EBCF00079F25D /* ViewController.swift */,
 				607985BF213EBCF00079F25D /* Main.storyboard */,
+				60700707216D88900038DBAF /* Tutorial.storyboard */,
 				607985C5213EBCF00079F25D /* Assets.xcassets */,
 				607985C7213EBCF00079F25D /* LaunchScreen.storyboard */,
 				607985CA213EBCF00079F25D /* Info.plist */,
@@ -124,6 +143,7 @@
 				6023FBE12163B8AF0001828F /* SideBarVC.swift */,
 				6023FBE32163BDF40001828F /* ProfileVC.swift */,
 				60700705216CD4710038DBAF /* UserInfoManager.swift */,
+				60700709216D8D600038DBAF /* Utils.swift */,
 			);
 			path = MyMemory;
 			sourceTree = "<group>";
@@ -218,6 +238,7 @@
 				6023FBD62163B4EF0001828F /* icon03.png in Resources */,
 				6023FBD52163B4EF0001828F /* icon05.png in Resources */,
 				607985C1213EBCF00079F25D /* Main.storyboard in Resources */,
+				60700708216D88900038DBAF /* Tutorial.storyboard in Resources */,
 				6023FBD72163B4EF0001828F /* profile-bg.png in Resources */,
 				6023FBC72163B2B00001828F /* fountainpen@2x.png in Resources */,
 				6023FBD82163B4EF0001828F /* sidemenu.png in Resources */,
@@ -236,15 +257,18 @@
 				6023FBE42163BDF40001828F /* ProfileVC.swift in Sources */,
 				60DDB8DD215A6CA0004035B6 /* CSLogButton.swift in Sources */,
 				6023FBE22163B8AF0001828F /* SideBarVC.swift in Sources */,
+				6070070A216D8D600038DBAF /* Utils.swift in Sources */,
 				60B8E0C5213ED00800CDAD7D /* MemoCell.swift in Sources */,
 				60B8E0C9213ED4FE00CDAD7D /* MemoFormVC.swift in Sources */,
 				60B8E0C7213ED07000CDAD7D /* MemoData.swift in Sources */,
 				607985C4213EBCF00079F25D /* MyMemory.xcdatamodeld in Sources */,
 				607985BE213EBCF00079F25D /* ViewController.swift in Sources */,
 				60B8E0BE213ECF4800CDAD7D /* MemoListVC.swift in Sources */,
+				6070070F216D8FDE0038DBAF /* TutorialMasterVC.swift in Sources */,
 				6023FBE02163B7E90001828F /* SWRevealViewController.m in Sources */,
 				60B8E0CB213ED51100CDAD7D /* MemoReadVC.swift in Sources */,
 				60700706216CD4710038DBAF /* UserInfoManager.swift in Sources */,
+				6070070C216D8E1C0038DBAF /* TutorialContentsVC.swift in Sources */,
 				607985BC213EBCF00079F25D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
