@@ -25,6 +25,7 @@
 		6070070A216D8D600038DBAF /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60700709216D8D600038DBAF /* Utils.swift */; };
 		6070070C216D8E1C0038DBAF /* TutorialContentsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6070070B216D8E1C0038DBAF /* TutorialContentsVC.swift */; };
 		6070070F216D8FDE0038DBAF /* TutorialMasterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6070070E216D8FDE0038DBAF /* TutorialMasterVC.swift */; };
+		607007CC217771AB0038DBAF /* MemoDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607007CB217771AB0038DBAF /* MemoDAO.swift */; };
 		607985BC213EBCF00079F25D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607985BB213EBCF00079F25D /* AppDelegate.swift */; };
 		607985BE213EBCF00079F25D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607985BD213EBCF00079F25D /* ViewController.swift */; };
 		607985C1213EBCF00079F25D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607985BF213EBCF00079F25D /* Main.storyboard */; };
@@ -63,6 +64,7 @@
 		60700709216D8D600038DBAF /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		6070070B216D8E1C0038DBAF /* TutorialContentsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialContentsVC.swift; sourceTree = "<group>"; };
 		6070070E216D8FDE0038DBAF /* TutorialMasterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialMasterVC.swift; sourceTree = "<group>"; };
+		607007CB217771AB0038DBAF /* MemoDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoDAO.swift; sourceTree = "<group>"; };
 		607985B8213EBCF00079F25D /* MyMemory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMemory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607985BB213EBCF00079F25D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607985BD213EBCF00079F25D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 				6023FBE32163BDF40001828F /* ProfileVC.swift */,
 				60700705216CD4710038DBAF /* UserInfoManager.swift */,
 				60700709216D8D600038DBAF /* Utils.swift */,
+				607007CB217771AB0038DBAF /* MemoDAO.swift */,
 			);
 			path = MyMemory;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				607985BE213EBCF00079F25D /* ViewController.swift in Sources */,
 				60B8E0BE213ECF4800CDAD7D /* MemoListVC.swift in Sources */,
 				6070070F216D8FDE0038DBAF /* TutorialMasterVC.swift in Sources */,
+				607007CC217771AB0038DBAF /* MemoDAO.swift in Sources */,
 				6023FBE02163B7E90001828F /* SWRevealViewController.m in Sources */,
 				60B8E0CB213ED51100CDAD7D /* MemoReadVC.swift in Sources */,
 				60700706216CD4710038DBAF /* UserInfoManager.swift in Sources */,

@@ -14,6 +14,8 @@ class MemoFormVC: UIViewController, UIImagePickerControllerDelegate, UINavigatio
     @IBOutlet var contents: UITextView!
     @IBOutlet var preview: UIImageView!
     
+    lazy var dao = MemoDAO()
+    
     
     
     // 저장 버튼을 눌렀을 때 호출되는 메소드
@@ -42,9 +44,8 @@ class MemoFormVC: UIViewController, UIImagePickerControllerDelegate, UINavigatio
         data.image = self.preview.image // 이미지
         data.regdate = Date() // 작성시간
         
-        // 앱 델리게이트 객체를 읽어온 다음, memolist 배열에 MemoData 객체를 추가한다.
-        let appDelegate = UIApplication.shared.delegate as! AppDelegate
-        appDelegate.memoList.append(data)
+        // 코어 데이터에 메모 데이터를 추가한다.
+        self.dao.insert(data)
         
         // 작성폼 화면을 종료하고, 이전 화면으로 돌아간다.
         _ = self.navigationController?.popViewController(animated: true)

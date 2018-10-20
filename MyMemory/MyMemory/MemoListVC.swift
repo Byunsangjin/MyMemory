@@ -8,8 +8,12 @@
 
 import UIKit
 
-class MemoListVC: UITableViewController {
+class MemoListVC: UITableViewController, UISearchBarDelegate {
     let appDelegate = UIApplication.shared.delegate as! AppDelegate
+    lazy var dao = MemoDAO()
+    
+    @IBOutlet var searchBar: UISearchBar!
+    
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         let count = self.appDelegate.memoList.count
@@ -19,6 +23,9 @@ class MemoListVC: UITableViewController {
     
     
     override func viewDidLoad() {
+        // 검색 바의 키보드에서 리턴 키가 항상 활성화되어 있도록 처리
+        searchBar.enablesReturnKeyAutomatically = false
+        
         // SWRevealViewController 라이브러리의 revealViewController 객체를 읽어온다.
         if let revealVC = self.revealViewController() {
             
@@ -63,6 +70,8 @@ class MemoListVC: UITableViewController {
     }
     
     override func viewWillAppear(_ animated: Bool) {
+        self.appDelegate.memoList = self.dao.fetch()
+        
         // 테이블 데이터를 다시 읽어들인다. 이에 따라 행을 구성하는 로직이 다시 실행될 것이다.
         self.tableView.reloadData()
         
@@ -88,5 +97,32 @@ class MemoListVC: UITableViewController {
         self.navigationController?.pushViewController(vc, animated: true)
     }
     
+    
+    
+    override func tableView(_ tableView: UITableView, editingStyleForRowAt indexPath: IndexPath) -> UITableViewCellEditingStyle {
+        return .delete
+    }
+    
+    
+    
+    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+        let data = self.appDelegate.memoList[indexPath.row]
+        
+        // 코어 데이터에서 삭제한 다음, 배열 내 데이터 및 테이블 뷰 행을 차례대로 삭제한다.
+        if dao.delete(data.objectID!) {
+            self.appDelegate.memoList.remove(at: indexPath.row)
+            self.tableView.deleteRows(at: [indexPath], with: .fade)
+        }
+    }
 
+    
+    
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+        // 검색 바에 입력된 키워드를 가져온다.
+        let keyword = searchBar.text
+        
+        // 키워드를 적용하여 데이터를 검색하고, 테이블 뷰를 갱신한다.
+        self.appDelegate.memoList = self.dao.fetch(keyword: keyword)
+        self.tableView.reloadData()
+    }
 }
