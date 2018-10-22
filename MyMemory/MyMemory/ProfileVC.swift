@@ -256,4 +256,9 @@ class ProfileVC: UIViewController, UITableViewDelegate, UITableViewDataSource, U
         picker.dismiss(animated: true)
     }
     
+    
+    
+    @IBAction func backProfileVC(_ segue: UIStoryboardSegue) {
+        // 단지 프로필 화면으로 되돌아오기 위한 표식 역할만 할 뿐이므로 내용 작성 x
+    }
 }

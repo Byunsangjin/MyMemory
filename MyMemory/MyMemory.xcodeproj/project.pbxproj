@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00E161CC07D143A65B0C5642 /* Pods_MyMemory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C95984C4D83E40D4549B2774 /* Pods_MyMemory.framework */; };
 		6023FBC72163B2B00001828F /* fountainpen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6023FBC62163B2B00001828F /* fountainpen@2x.png */; };
 		6023FBD12163B4EF0001828F /* icon06.png in Resources */ = {isa = PBXBuildFile; fileRef = 6023FBC82163B4EF0001828F /* icon06.png */; };
 		6023FBD22163B4EF0001828F /* icon04.png in Resources */ = {isa = PBXBuildFile; fileRef = 6023FBC92163B4EF0001828F /* icon04.png */; };
@@ -26,6 +27,7 @@
 		6070070C216D8E1C0038DBAF /* TutorialContentsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6070070B216D8E1C0038DBAF /* TutorialContentsVC.swift */; };
 		6070070F216D8FDE0038DBAF /* TutorialMasterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6070070E216D8FDE0038DBAF /* TutorialMasterVC.swift */; };
 		607007CC217771AB0038DBAF /* MemoDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607007CB217771AB0038DBAF /* MemoDAO.swift */; };
+		60700809217CB0090038DBAF /* JoinVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60700808217CB0090038DBAF /* JoinVC.swift */; };
 		607985BC213EBCF00079F25D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607985BB213EBCF00079F25D /* AppDelegate.swift */; };
 		607985BE213EBCF00079F25D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607985BD213EBCF00079F25D /* ViewController.swift */; };
 		607985C1213EBCF00079F25D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607985BF213EBCF00079F25D /* Main.storyboard */; };
@@ -44,6 +46,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1748E26AB07DF24E0DA86690 /* Pods-MyMemory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMemory.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyMemory/Pods-MyMemory.release.xcconfig"; sourceTree = "<group>"; };
+		2958A44A06AB7429DB01CDA2 /* Pods-MyMemory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMemory.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyMemory/Pods-MyMemory.debug.xcconfig"; sourceTree = "<group>"; };
 		6023FBC62163B2B00001828F /* fountainpen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fountainpen@2x.png"; path = "../../../../개발자료/메모앱/PracticeImage/MyMemory/Chapter01/fountainpen@2x.png"; sourceTree = "<group>"; };
 		6023FBC82163B4EF0001828F /* icon06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon06.png; path = "../../../../개발자료/메모앱/PracticeImage/MyMemory/Chapter04/icon06.png"; sourceTree = "<group>"; };
 		6023FBC92163B4EF0001828F /* icon04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon04.png; path = "../../../../개발자료/메모앱/PracticeImage/MyMemory/Chapter04/icon04.png"; sourceTree = "<group>"; };
@@ -65,6 +69,7 @@
 		6070070B216D8E1C0038DBAF /* TutorialContentsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialContentsVC.swift; sourceTree = "<group>"; };
 		6070070E216D8FDE0038DBAF /* TutorialMasterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialMasterVC.swift; sourceTree = "<group>"; };
 		607007CB217771AB0038DBAF /* MemoDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoDAO.swift; sourceTree = "<group>"; };
+		60700808217CB0090038DBAF /* JoinVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinVC.swift; sourceTree = "<group>"; };
 		607985B8213EBCF00079F25D /* MyMemory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMemory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607985BB213EBCF00079F25D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607985BD213EBCF00079F25D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -82,6 +87,7 @@
 		60DDB8DE215A6D6A004035B6 /* button-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-bg.png"; sourceTree = "<group>"; };
 		60DDB8E0215A6FF1004035B6 /* memo-background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "memo-background@2x.png"; sourceTree = "<group>"; };
 		60DDB8E1215A6FF1004035B6 /* warning-icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "warning-icon-60@2x.png"; sourceTree = "<group>"; };
+		C95984C4D83E40D4549B2774 /* Pods_MyMemory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyMemory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00E161CC07D143A65B0C5642 /* Pods_MyMemory.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +117,8 @@
 				60B8E0CC213FED2900CDAD7D /* Resources */,
 				607985BA213EBCF00079F25D /* MyMemory */,
 				607985B9213EBCF00079F25D /* Products */,
+				877828F072C7D5C5D0EA32B1 /* Pods */,
+				F70FE0496C2215AEEA5FB22C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -147,6 +156,7 @@
 				60700705216CD4710038DBAF /* UserInfoManager.swift */,
 				60700709216D8D600038DBAF /* Utils.swift */,
 				607007CB217771AB0038DBAF /* MemoDAO.swift */,
+				60700808217CB0090038DBAF /* JoinVC.swift */,
 			);
 			path = MyMemory;
 			sourceTree = "<group>";
@@ -171,6 +181,23 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		877828F072C7D5C5D0EA32B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2958A44A06AB7429DB01CDA2 /* Pods-MyMemory.debug.xcconfig */,
+				1748E26AB07DF24E0DA86690 /* Pods-MyMemory.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F70FE0496C2215AEEA5FB22C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C95984C4D83E40D4549B2774 /* Pods_MyMemory.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -178,9 +205,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607985CD213EBCF00079F25D /* Build configuration list for PBXNativeTarget "MyMemory" */;
 			buildPhases = (
+				EC59E54E20009411192FA80A /* [CP] Check Pods Manifest.lock */,
 				607985B4213EBCF00079F25D /* Sources */,
 				607985B5213EBCF00079F25D /* Frameworks */,
 				607985B6213EBCF00079F25D /* Resources */,
+				865E4D6857F7F45C96F5D312 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +281,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		865E4D6857F7F45C96F5D312 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MyMemory/Pods-MyMemory-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyMemory/Pods-MyMemory-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC59E54E20009411192FA80A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyMemory-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		607985B4213EBCF00079F25D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -271,6 +347,7 @@
 				607007CC217771AB0038DBAF /* MemoDAO.swift in Sources */,
 				6023FBE02163B7E90001828F /* SWRevealViewController.m in Sources */,
 				60B8E0CB213ED51100CDAD7D /* MemoReadVC.swift in Sources */,
+				60700809217CB0090038DBAF /* JoinVC.swift in Sources */,
 				60700706216CD4710038DBAF /* UserInfoManager.swift in Sources */,
 				6070070C216D8E1C0038DBAF /* TutorialContentsVC.swift in Sources */,
 				607985BC213EBCF00079F25D /* AppDelegate.swift in Sources */,
@@ -415,6 +492,7 @@
 		};
 		607985CE213EBCF00079F25D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2958A44A06AB7429DB01CDA2 /* Pods-MyMemory.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -435,6 +513,7 @@
 		};
 		607985CF213EBCF00079F25D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1748E26AB07DF24E0DA86690 /* Pods-MyMemory.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
